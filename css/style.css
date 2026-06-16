@@ -149,6 +149,7 @@ a:hover,
 a:focus {
     text-decoration: none;
     color: var(--text);
+    outline: none;
 }
 
 input,
@@ -1161,6 +1162,7 @@ input[type=number]::-webkit-outer-spin-button {
     visibility: hidden;
     opacity: 0;
     transition: var(--transition);
+    z-index: 50;
 }
 
 .backtop.scroll {
